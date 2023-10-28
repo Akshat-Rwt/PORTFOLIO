@@ -12,6 +12,7 @@ html,body{
 
 #main{
     width: 100%;
+    background-color: black;
 }
 
 #hero{
@@ -138,7 +139,6 @@ html,body{
 
 .elem img{
     display: none;
-    /* opacity: 0; */
     height: 140%;
     z-index: 999;
     position: absolute;
@@ -150,6 +150,7 @@ html,body{
     gap: 50px;
     color: #fff;
     padding: 10vw 10vw;
+    padding-top: 25vw;
     padding-left: 40vw;
     width: 100%;
     background-color: black;
@@ -202,4 +203,29 @@ html,body{
     margin-top: 10px;
 }
 
+#footer{
+    color: #fff;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 30px;
+}
 
+#footerleft{
+    display: flex;
+    gap: 30px;
+}
+
+#footerright{
+    display: flex;
+    gap: 20px;
+}
+
+#footer a {
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 500;
+    color: #fff;
+    text-decoration: none;
+}
